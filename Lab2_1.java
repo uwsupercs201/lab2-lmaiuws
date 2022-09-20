@@ -25,7 +25,7 @@ public class Lab2_1 {
         int fl = (int) floor;
         System.out.println("The integer part of the distance between point 1 and point 2 is: " + fl);
 
-        double ceil = distanceBetweenP1AndP2 - 11;
+        double ceil = distanceBetweenP1AndP2 - fl;
         System.out.println("The fraction part of the distance between point 1 and point 2 is: " + ceil);
 
     }
